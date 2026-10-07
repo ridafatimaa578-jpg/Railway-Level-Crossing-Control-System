@@ -1,0 +1,25 @@
+## Task 2 — Formalize Constraints
+
+### Propositional variables
+
+| Variable | Meaning |
+|----------|---------|
+| `Train_Present` | A train is currently in the crossing |
+| `Train_Cleared` | Sensors confirm the train has completely cleared the crossing |
+| `Barrier_Open` | Barrier is fully open |
+| `Barrier_Closed` | Barrier is fully closed |
+| `Barrier_Closing` | Barrier is moving to the closed position |
+| `Barrier_Opening` | Barrier is moving to the open position |
+| `Warning_Active` | Warning lights and audible alarm are on |
+| `Road_Signal_Red` | Road traffic signal shows red |
+| `Sensor_Failure` | A train-detection sensor has failed |
+| `Barrier_Fault` | A barrier fault has been detected |
+| `Comm_Loss` | Communication with control center is lost |
+| `Sensor_Conflict` | Sensors give contradictory readings |
+| `Emergency` | Emergency condition is active |
+| `Manual_Override` | An authorised operator has overridden the system |
+| `Fail_Safe` | System is in fail-safe mode |
+| `Alert_Sent` | Alert has been sent to the control center |
+| `Train_Permitted` | Train has been given the green signal to pass |
+
+### Formal expressions
